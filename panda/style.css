@@ -1,0 +1,44 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.nuy-btn{
+   background-color: #ff136f;
+   display:inline-block;
+   padding: 7px 20px;
+   border-radius: 10px;
+   color: #fff;
+}
+.searce-bgc{
+    background-color: #feeae8;
+}
+.cat1, .cat2, .cat3{
+    padding: 10px 10px;
+    border-radius: 10px;
+    color: #fff;
+}
+.cat1{
+    background-color: orange;
+ 
+}
+ .cat1 img{
+    width: 90px;
+}
+.cat2{
+    background-color: #800080;
+}
+ .cat2 img{
+    width: 90px;
+}
+.cat3{
+    background-color: blue;
+}
+ .cat3 img{
+    width: 90px;
+}
+.card {
+	box-shadow: 9px 5px 17px #ddd;
+	border: none;
+}
+.fooder-bg{
+    background-color: #FEEAE9;
+}

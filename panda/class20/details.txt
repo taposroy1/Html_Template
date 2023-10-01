@@ -1,0 +1,4 @@
+Fonts : Poppins
+bgc:#feeae8
+btn: #ff136f
+orange, purple, blue

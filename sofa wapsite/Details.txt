@@ -1,0 +1,4 @@
+Font Family: Poppins, 400,500, 700
+
+--text-color: #000000;
+--main-color: #83b735;

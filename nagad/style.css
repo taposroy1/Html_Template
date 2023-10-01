@@ -1,0 +1,505 @@
+img{
+    max-width: 100%;
+}
+body{
+	font-family: 'Noto Sans Bengali',sans-serif;
+}
+.header {
+
+	padding: 9px 0;
+	width: 1265px;
+}
+
+.navbar-brand{
+  
+}
+.navbar-brand img {
+	height: 100px;
+    position: absolute;
+	top: -26px;
+}
+
+.header-menu{}
+.header-menu li{
+   letter-spacing: 2;
+}
+.header-menu li a {
+	display: block;
+	padding: 9px 13px;
+	text-decoration: none;
+	color: #12233d;
+	font-size: .875rem;
+	background-color: #fff;
+}
+.header-menu li a i {
+	color: #2e3848;
+	font-size: 12px;
+}
+.fas.fa-search {
+	font-size: 25px;
+	color: #12233d;
+}
+.header-menu li a:hover{
+	color: tomato;
+}
+
+/*========= dropdron menu bar ==========*/
+
+.header-menu li{
+	position: relative;
+}
+.header-menu li ul{
+	position: absolute;
+	top: 150%;
+	left: 0;
+	width: 220px;
+	height: 0;
+	opacity: 0;
+	visibility: hidden;
+	transition: .5s;
+}
+.header-menu li:hover ul{
+	opacity: 1;
+	visibility: visible;
+	top: 110%;
+}
+.header-menu li ul li {
+	list-style: none;
+	margin-left: -42px;
+}
+.header-menu li ul li a {
+	padding: 23px;
+}
+
+.header-menu li ul li a:hover{
+	color: #2e3848;
+}
+
+
+/*======== nagad-nanar sectiom =========*/
+
+ .nagad-nanar{
+	background: url(./imges/Web_Banner_Press-Ad-Final.jpg) no-repeat center center;
+    background-size: cover;
+	padding: 300px;
+	background-position: bottom;
+} 
+
+
+/* =========nagad-apps--==========  */
+
+.nagad-apps span {
+	padding: 0 15px;
+	position: relative;
+	top: -13px;
+}
+
+
+/* লেনদেন এখন নগদ এ */
+
+.load-nagad{
+	background: url(./imges/Mujib-copy.jpg) no-repeat center ;
+	background-size: cover;
+    padding: 200px;
+	margin-bottom: 100px;
+}
+.loan-text{
+	text-align: center;
+}
+.loan-text h3 {
+	color: #fff;
+	font-weight: 600;
+}
+.loan-text a {
+	text-decoration: none;
+	padding: 19px 39px;
+	background: #fff;
+	color: #111;
+	display: inline-block;
+	font-weight: 600;
+
+}
+.fas.fa-sort-up {
+	transform: rotate(91deg);
+	position: relative;
+	left: -16px;
+	font-size: 23px;
+	color: red;
+	
+}
+
+
+/* ---===প্রোডাক্ট এবং সার্ভিস===== */
+
+.service-prodac {
+	text-align: center;
+	width: 600px;
+	margin: auto;
+
+}
+.service-prodac h3 {
+	margin-bottom: 25px;
+	font-weight: 600;
+	color: #12233dde;
+}
+.service-prodac p {
+	line-height: 2;
+	color: #12233d99;
+}
+
+/* ---===প্রোডাক্ট এবং সার্ভিস===== */
+
+.loan-servicr-case {
+	text-align: center;
+	width: 250px;
+	margin: auto;
+	margin-top: 69px;
+	overflow: hidden;
+}
+.case-in-icon {
+	height: 80px;
+	width: 80px;
+	text-align: center;
+	background: #ddd;
+	line-height: 80px;
+	border-radius: 50%;
+	overflow: hidden;
+	left: 38%;
+	position: relative;
+	margin-bottom: 20px;
+}
+.case-in-icon span {}
+.case-in-icon span i {
+	transition: .5s;
+	color: rgb(214, 170, 170);
+	font-size: 23px;
+}
+.loan-servicr-case:hover i{
+	transform: scale(1.5);
+	color: #f1252c;
+}
+
+.loan-servicr-case h4{
+	color: #12233dde;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+.loan-servicr-case p{
+	line-height: 1.8;
+	color: #12233d99;
+}
+
+
+/* =======দেশি নগদে বেশি লাভ===------ */
+
+.deshi-nogod{
+	background: url(./imges/Web_Banner_1920x562.jpg) center ;
+	background-size: cover;
+	background-position: top;
+	padding: 200px;
+	margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+/* ---=====এক্সক্লুসিভ অফার-----====== */
+.offer-exclosivr{
+	text-align: center;
+}
+.offer-exclosivr h2 {
+	font-size: 28px;
+	margin-bottom: 27px;
+}
+.offer-exclosivr p {
+	color: #12233d99;
+	margin-bottom: 26px;
+}
+.offer-exclosivr a {
+	text-decoration: none;
+	padding: 14px 35px;
+	border: 1px solid red;
+	color: red;
+	font-weight: 600;
+	margin-bottom: 100px;
+	display: inline-block;
+	transition: .4s;
+}
+
+.offer-exclosivr a:hover{
+	background-color: red;
+	color: white;
+}
+
+/* ====নগদ অ্যাকাউন্ট খুলুন মাত্র মিনিটে===== */
+
+.nagad-account-section{
+	background-color: #f9f9fa;
+	padding: 100px;
+}
+.nagad-account-section h2 {
+	text-align: center;
+	margin-bottom: 78px;
+}
+
+.nagad-acount-list{
+	margin-top: 30px;
+}
+.nagad-acount-list ul{
+	position: relative;
+}
+.nagad-acount-list ul::before {
+	content: "";
+	position: absolute;
+	height: calc(100% - 30px);
+	width: 2px;
+	background: #00000014;
+	left: 0;
+}
+.nagad-acount-list ul li{
+	list-style: none;
+	position: relative;
+}
+.nagad-acount-list ul li::before {
+	content: attr(data-counten);
+	position: absolute;
+	left: -49px;
+	top: -7px;
+	height: 35px;
+	width: 35px;
+	background: #fff;
+	text-align: center;
+	line-height: 35px;
+	border: 1px solid #00000014;
+	border-radius: 50%;
+}
+.nagad-acount-list ul li strong {
+	margin-top: 54px;
+	display: block;
+	margin-bottom: 10px;
+	color: #12233dde;
+}
+.nagad-acount-list ul li p{
+	color: #12233d99;
+}
+
+.nagad-img-list {
+	position: relative;
+}
+.nagad-img-list img {
+	height: 400px;
+}
+
+.nagod-img-list{}
+.nagod-img-list img {
+	position: absolute;
+	top: 34px;
+	left: 78px;
+	height: 336px;
+	width: 486px;
+}
+
+.acount-star{}
+.acount-star a {
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	padding: 16px;
+	width: 200px;
+	margin: auto;
+	margin-top: 27px;
+	background: #ee232b;
+	color: #fff;
+	font-weight: 600;
+	border-radius: 5px;
+}
+
+
+
+/* -=========গ্রাহকের অভিমত====== */
+
+.person-miting{
+	text-align: center;
+}
+.person-miting h3 {
+	margin-bottom: 27px;
+	margin-top: 50px;
+	color: #12233dde;
+	font-size: 32px;
+	font-weight: 500;
+}
+.person-miting p {
+	color: #12233d99;
+	line-height: 2;
+	width: 600px;
+	margin: auto;
+}
+
+.personal-img-banar{
+   position: relative;
+   	position: relative;
+}
+.personal-img-banar img {
+	height: 453px;
+	margin-left: 6px;
+	margin-top: 28px;
+}
+
+.personal-post {
+	position: absolute;
+	bottom: 62px;
+	right: 95px;
+	width: 420px;
+	color: #fff;
+	background: #ed1c24;
+	padding: 26px;
+}
+.personal-post p{
+	line-height: 1.8;
+}
+.personal-post h5 {
+	font-size: 22px;
+	margin-top: 28px;
+}
+
+.personal-img-banar::before {
+	content: "";
+	position: absolute;
+	height: 5px;
+	width: 40px;
+	background-color: #ed1c24;
+	bottom: -20px;
+	left: 492px;
+}
+
+
+/*===== ডাউনলোড করুন নগদ অ্যাপ==== */
+.dowload-section{
+	background-color: #f9f9fa;
+	padding: 100px;
+	margin-top: 100px;
+}
+.dowload-apps{
+	text-align: center;
+}
+.dowload-apps h3 {
+	margin-bottom: 26px;
+	font-weight: 500;
+	font-size: 35px;
+}
+.dowload-apps p {
+	line-height: 1.8;
+	margin-bottom: 30px;
+	font-size: 15px;
+	width: 424px;
+	margin: auto;
+	margin-bottom: 35px;
+}
+.dowload-apps span img {
+	padding: 0 16px;
+}
+
+.douload-img{
+	position: relative;
+}
+.douload-img img {
+	position: absolute;
+	top: -183px;
+	height: 483px;
+	right: 0;
+}
+
+
+/* fooder section css */
+a{
+	text-decoration: none;
+}
+.fooder-section {
+	padding: 100px;
+}
+.fooder-logo1{}
+.fooder-logo1 img{}
+
+.fooder-list{}
+.fooder-list ul{}
+.fooder-list ul li{
+	display: inline-block;
+}
+.fooder-list ul li a {
+	display: block;
+	padding: 17px;
+}
+
+
+.fooder-icon{
+	overflow: hidden;
+}
+.fooder-icon ul{}
+.fooder-icon ul li{
+	display: inline-block;
+}
+.fooder-icon ul li a{
+	display: block;
+}
+.fooder-icon ul li a span{
+	padding: 6px;
+}
+.facebkook{
+		height: 40px;
+	width: 40px;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 40px;
+	transition: .4s;
+	color:#9e9e9e;
+	font-weight: 600;
+
+}
+.facebkook:hover{
+		background-color: #365396;
+	border-color: #365396;
+	color: #fff;
+	height: 40px;
+	width: 40px;
+	border-radius: 5px;
+}
+.linkedin{
+		height: 40px;
+	width: 40px;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 40px;
+	transition: .4s;
+	color:#9e9e9e;
+	font-weight: 600;
+
+}
+.linkedin:hover{
+	background-color: #006EB3;
+	border-color: #006EB3;
+	color:#fff;
+	height: 40px;
+	width: 40px;
+	border-radius: 5px;
+}
+.youtube{
+	height: 40px;
+	width: 40px;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 40px;
+	transition: .4s;
+	color:#9e9e9e;
+	font-weight: 600;
+}
+.youtube:hover{
+	background-color: red;
+	border-color: red;
+	color: #fff;
+	height: 40px;
+	width: 40px;
+	border-radius: 5px;
+}
+
